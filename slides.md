@@ -119,7 +119,7 @@ Githubのサイトで作成したレポジトリでの作業になります
 
 Githubのサイトで作成したレポジトリでの作業になります
 
-1. `Build and deployment`を`Github Actionis`へ変更
+1. `Build and deployment`を`Github Actions`へ変更
 2. `Static HTML` > `Configure`をクリック
 
 <img src="/assets/github-pages-setting.png" width="700" />
