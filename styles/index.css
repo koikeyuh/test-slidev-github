@@ -1,0 +1,18 @@
+/* ./styles/index.css */
+.scrollable-code {
+  /* 最大の高さをスライドに合わせて設定（例: スライドの高さの60%） */
+  max-height: 300px; 
+  /* 垂直方向のスクロールを有効にする */
+  overflow-y: scroll; 
+  /* 見栄えを良くするためにパディングを設定 */
+  padding: 1rem; 
+  /* スクロールバーを見やすくするために背景を少し濃くする */
+  background-color: var(--slidev-code-background);
+  /* 角を丸くする */
+  border-radius: 6px;
+}
+
+/* コードブロック内部の余分なマージンをリセットすることが望ましい場合 */
+.scrollable-code pre {
+  margin: 0;
+}

@@ -1,6 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Slidevで作成したスライドをGithubで公開する方法をまとめています
 
-To start the slide show:
+Github PagesでActionsによる自動デプロイです
 
 - `pnpm install`
 - `pnpm dev`
