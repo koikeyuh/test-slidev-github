@@ -204,9 +204,18 @@ jobs:
 
 ---
 
-# 編集したら
+# 続き
 
-ローカルPCでスライドの修正をしたら、gitでadd, commit, pushすることで自動で変更が反映される
+<br>
+
+一度、公開できていることを確認したら、Web上で`deploy.yaml`を追加した変更がローカルに反映されていないため、一旦リモート（github）の変更をローカルに取り込む必要がある。
+
+```bash
+git pull origin main
+```
+
+
+以後、ローカルPCでスライドの修正をしたら、gitでadd, commit, pushすることで自動で変更が反映される
 
 ```bash
 git add -A
